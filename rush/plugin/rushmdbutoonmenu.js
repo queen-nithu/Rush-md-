@@ -24,7 +24,7 @@ const alive = async (m, Matrix) => {
 
                     display_text: "Menu",
 
-                    url: `https://whatsapp.com/channel/0029VaicAPo2P59qng5LjY0m`
+                    url: `https://link2unlock.com/a2745`
 
                   })
         }
