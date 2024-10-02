@@ -86,8 +86,8 @@ _________________________________________
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '911111111',
-                  newsletterName: "RUSH",
+                  newsletterJid: '120363313717856084@newsletter',
+                  newsletterName: "OUR CHANNEL",
                   serverMessageId: 143
                 }
               }
