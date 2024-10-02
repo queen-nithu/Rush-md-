@@ -22,7 +22,7 @@ const alive = async (m, Matrix) => {
 
                   buttonParamsJson: JSON.stringify({
 
-                    display_text: "NEW",
+                    display_text: "Menu",
 
                     url: `https://whatsapp.com/channel/0029VaicAPo2P59qng5LjY0m`
 
