@@ -13,48 +13,20 @@ const alive = async (m, Matrix) => {
     if (['menu'].includes(cmd)) {
 
   const uptimeMessage = `*SUVI TECH Youtube*
-_________________________________________
-Suvi tech youtube subcribe now😃
-_________________________________________
 `;
 
   const buttons = [
         {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "OWNER MENU",
-            id: `.rushmenu`
-          })
-        },
-        {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "downloadmenu",
-            id: `.downloadmenu`
-          })
-        },
-        {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "all menu",
-            id: `.allmenu`
-          })
-        },
-    {
-          "name": "cta_copy",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "our yt😃",
-            id: "${prefix}ping",
-             copy_code: '.rushmdwa'
-          })
-        },
-    {
-          "name": "cta_copy",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "OWNER AND REPO",
-            id: "${prefix}ping",
-             copy_code: '.rushmdrepo'
-          })
+
+                  name: "cta_url",
+
+                  buttonParamsJson: JSON.stringify({
+
+                    display_text: "NEW",
+
+                    url: `https://whatsapp.com/channel/0029VaicAPo2P59qng5LjY0m`
+
+                  })
         }
         ];
 
@@ -87,7 +59,7 @@ _________________________________________
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363313717856084@newsletter',
-                  newsletterName: "OUR CHANNEL",
+                  newsletterName: "OUR CHANNEL✨",
                   serverMessageId: 143
                 }
               }
